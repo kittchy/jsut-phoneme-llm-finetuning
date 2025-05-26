@@ -1,0 +1,16 @@
+[project]
+name = "jsut-phoneme-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "unsloth>=2025.5.7",
+    "torchmetrics>=1.7.1",
+    "tqdm>=4.67.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
