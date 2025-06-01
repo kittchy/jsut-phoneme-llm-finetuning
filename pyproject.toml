@@ -9,6 +9,7 @@ dependencies = [
     "unsloth>=2025.5.7",
     "torchmetrics>=1.7.1",
     "tqdm>=4.67.1",
+    "wandb>=0.19.11",
 ]
 
 [build-system]
