@@ -34,7 +34,7 @@ def build_model(load_in_4bit: bool = True, load_in_8bit: bool = False):
             "down_proj",
         ],
         lora_alpha=16,
-        lora_dropout=0,
+        lora_dropout=0.05,
         bias="none",
         use_gradient_checkpointing="unsloth",
         random_state=3407,
